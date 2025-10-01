@@ -12,7 +12,7 @@ Web アプリ作成用事前テスト
   </p>
   
   <button onclick="calc()">計算する</button>
-  <p>結果: <span id="result" class="result">0</span></p>
+  <p>結果: <span id="result" class="result">0</span>[Ω]</p>
 
   <script>
     function calc() {
@@ -24,6 +24,4 @@ Web アプリ作成用事前テスト
       document.getElementById("result").textContent = R;
     }
   </script>
-</body>
-</html>
-
+  
