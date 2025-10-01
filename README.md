@@ -6,13 +6,13 @@ Web アプリ作成用事前テスト
   <p>公式: <code>R = (Vcc - Vf) / If</code></p>
   
   <p>
-    Vcc[V]：<input type="number" id="Vcc" value="5"><br>
-    Vf[V]：<input type="number" id="Vf" value="1.4"><br>
-    If[mA]：<input type="number" id="If" value="10"><br>
+    Vcc<sub>[V]</sub>：<input type="number" id="Vcc" value="5"><br>
+    Vf<sub>[V]</sub>：<input type="number" id="Vf" value="1.4"><br>
+    If<sub>[mA]</sub>：<input type="number" id="If" value="10"><br>
   </p>
   
   <button onclick="calc()">計算する</button>
-  <p>結果: <span id="result" class="result">0</span>[Ω]</p>
+  <p>結果: <span id="result" class="result">0</span><sub>[Ω]</sub></p>
 
   <script>
     function calc() {
