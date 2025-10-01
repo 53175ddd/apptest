@@ -2,18 +2,6 @@
 
 Web アプリ作成用事前テスト
 
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <title>公式計算シート</title>
-  <style>
-    body { font-family: sans-serif; padding: 20px; line-height: 1.8; }
-    input { width: 80px; margin: 5px; }
-    .result { font-weight: bold; }
-  </style>
-</head>
-<body>
   <h1>計算シート</h1>
   <p>公式: <code>y = a × b + c</code></p>
   
