@@ -6,9 +6,9 @@ Web アプリ作成用事前テスト
   <p>公式: <code>R = (Vcc - Vf) / If</code></p>
   
   <p>
-    Vcc: <input type="number" id="Vcc" value="5">(単位：V)<br>
-    Vf: <input type="number" id="Vf" value="1.4">(単位：V)<br>
-    If: <input type="number" id="If" value="10">(単位：mA)<br>
+    Vcc[V]：<input type="number" id="Vcc" value="5"><br>
+    Vf[V]：<input type="number" id="Vf" value="1.4"><br>
+    If[mA]：<input type="number" id="If" value="10"><br>
   </p>
   
   <button onclick="calc()">計算する</button>
