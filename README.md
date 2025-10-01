@@ -2,13 +2,13 @@
 
 Web アプリ作成用事前テスト
 
-  <h1>計算シート</h1>
-  <p>公式: <code>y = a × b + c</code></p>
+  <h1>LED の保護抵抗の最低値</h1>
+  <p>公式: <code>R = (Vcc - Vf) / If</code></p>
   
   <p>
-    a: <input type="number" id="a" value="1"><br>
-    b: <input type="number" id="b" value="2"><br>
-    c: <input type="number" id="c" value="3"><br>
+    Vcc: <input type="number" id="Vcc" value="5"><br>
+    Vf: <input type="number" id="Vf" value="1.4"><br>
+    If: <input type="number" id="If" value="10"><br>
   </p>
   
   <button onclick="calc()">計算する</button>
@@ -16,12 +16,12 @@ Web アプリ作成用事前テスト
 
   <script>
     function calc() {
-      const a = parseFloat(document.getElementById("a").value) || 0;
-      const b = parseFloat(document.getElementById("b").value) || 0;
-      const c = parseFloat(document.getElementById("c").value) || 0;
+      const Vcc = parseFloat(document.getElementById("Vcc").value) || 0;
+      const Vf = parseFloat(document.getElementById("Vf").value) || 0;
+      const If = parseFloat(document.getElementById("If").value) || 0;
 
-      const y = a * b + c;
-      document.getElementById("result").textContent = y;
+      const R = (Vcc - Vf) / If;
+      document.getElementById("result").textContent = R;
     }
   </script>
 </body>
